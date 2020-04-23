@@ -68,4 +68,4 @@ $ python Cryptor
 ```
 
 ## Scan Result
-![](/img/scanresult.PNG)
+![](/img/scanresult.png)
