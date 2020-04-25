@@ -7,7 +7,7 @@ class Encrypt:
 
     def encrypt(self, filename):
         
-        with open(filename, "r") as f:
+        with open(filename, "r", encoding="utf8") as f:
             lines_list = f.readlines()
             for lines in lines_list:
                 self.text += lines
