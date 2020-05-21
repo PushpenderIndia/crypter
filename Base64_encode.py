@@ -1,13 +1,13 @@
 import base64
 
-class Encrypt:
+class Encode:
     def __init__(self):
         self.text = ""
         self.enc_txt = ""
 
-    def encrypt(self, filename):
+    def encode(self, filename):
         
-        with open(filename, "r", encoding="utf8") as f:
+        with open(filename, "r", encoding="utf8", errors="ignore") as f:
             lines_list = f.readlines()
             for lines in lines_list:
                 self.text += lines
@@ -23,6 +23,6 @@ if __name__ == '__main__':
     filename = input("[?] Enter Filename : ")
     
     print(f"\n[*] Initaiting Base64 Encryption Process ...")    
-    test = Encrypt()
-    test.encrypt(filename)
+    test = Encode()
+    test.encode(filename)
     print(f"[+] Operation Completed Successfully!\n")
