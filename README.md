@@ -20,7 +20,7 @@
 
 This Crypter is written in python 3, which can be used obfusticate, encrypt the python source code to bypass AntiVirus. Also Capable to Bypass VM such as VirtualBox, VMware, Sandboxie. 
 
-Uses AES-256 bit Encryption & Base64 Encryption to Encrypt the Source Code for Twice.
+Uses AES-256 bit Encryption & Base64 Encoding to Encrypt the Source Code for Twice.
 
 3 Powerfull Methods to Detect whether running on VM or real machine
 
@@ -33,7 +33,7 @@ THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. YOU MAY USE THIS
 
 ## Features
 - [x] OS Independent
-- [x] Can Encrypt Python Source Codes with AES 256 bit Encryption & Base64 Encryptiom
+- [x] Can Encrypt Python Source Codes with AES 256 bit Encryption & Base64 Encoding
 - [x] 3 Powerfull Methods to Bypass VM (such as VirtualBox, VMware, Sandboxie)
 
 | Virtual Machine Bypass Methods Includes |
