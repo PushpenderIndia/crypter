@@ -1,4 +1,4 @@
-import Base64_encrypt, AES_encrypt, shutil
+import Base64_encode, AES_encrypt, shutil
 
 if __name__ == '__main__':
     notice = """
@@ -24,8 +24,8 @@ if __name__ == '__main__':
     print("[+] Done !")
     
     print(f"\n[*] Initaiting Base64 Encryption Process ...")    
-    test2 = Base64_encrypt.Encrypt()
-    test2.encrypt(path)
+    test2 = Base64_encode.Encode()
+    test2.encode(path)
     print(f"[+] Operation Completed Successfully!\n")     
 
     print("\n[*] Initiating AES Encryption Process ...")
