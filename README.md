@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Technowlogy-Pushpender/crypter/blob/master/img/crypter-logo.png" alt="Crypter Logo" />
+  <img src="https://github.com/PushpenderIndia/crypter/blob/master/img/crypter-logo.png" alt="Crypter Logo" />
 </p>
 
 <h1 align="center">Crypter</h1>
@@ -7,13 +7,13 @@
     <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3.7-green.svg">
   </a>
-  <a href="https://github.com/Technowlogy-Pushpender/crypter/blob/master/LICENSE">
+  <a href="https://github.com/PushpenderIndia/crypter/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-BSD%203-lightgrey.svg">
   </a>
-  <a href="https://github.com/Technowlogy-Pushpender/crypter/releases">
+  <a href="https://github.com/PushpenderIndia/crypter/releases">
     <img src="https://img.shields.io/badge/Release-1.0-blue.svg">
   </a>
-    <a href="https://github.com/Technowlogy-Pushpender/crypter">
+    <a href="https://github.com/PushpenderIndia/crypter">
     <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen.svg">
   </a>
 </p>
@@ -73,5 +73,4 @@ $ python Cryptor
 ## Buy Me A Coffee
 
 * Support my Open Source projects by making Donation, It really motivates me to work on more projects
-* PayPal Address: https://paypal.me/anonyindia
-* PayPal Email: `singhpushpender250@gmail.com`
+* PayPal Email: `shrisatender@gmail.com`
