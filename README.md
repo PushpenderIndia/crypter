@@ -18,7 +18,7 @@
   </a>
 </p>
 
-This Crypter is written in python 3, which can be used obfusticate, encrypt the python source code to bypass AntiVirus. Also Capable to Bypass VM such as VirtualBox, VMware, Sandboxie. 
+This Crypter is written in python 3, which can be used to obfusticate, encrypt the python source code to bypass AntiVirus. Also Capable to Bypass VM such as VirtualBox, VMware, Sandboxie. 
 
 Uses AES-256 bit Encryption & Base64 Encoding to Encrypt the Source Code for Twice.
 
