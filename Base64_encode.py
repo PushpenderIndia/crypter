@@ -1,5 +1,6 @@
-import base64
+import base64 # use base64
 
+# create class Encode:
 class Encode:
     def __init__(self):
         self.text = ""
