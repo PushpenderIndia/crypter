@@ -15,6 +15,7 @@ Author : Pushpender (github.com/Technowlogy-Pushpender)
 
 import os, sys, subprocess, re, uuid, ctypes
 
+# create class BypassVM:
 class BypassVM:
 
     def registry_check(self):  
