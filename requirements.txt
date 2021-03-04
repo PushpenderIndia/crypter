@@ -1,1 +1,3 @@
-
+hashlib
+pycryptodome
+cryptography
