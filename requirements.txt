@@ -1,3 +1,7 @@
 hashlib
 pycryptodome
 cryptography
+subprocess
+re 
+uuid 
+ctypes
