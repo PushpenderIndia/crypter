@@ -1,8 +1,9 @@
 from Crypto import Random
 from Crypto.Cipher import AES
-import os
-import hashlib
+import os # use os
+import hashlib # use hashlib
 
+# create class Encryptor:
 class Encryptor:
     def __init__(self, key, file_name, bypassVM):
         self.bypassVM = bypassVM
