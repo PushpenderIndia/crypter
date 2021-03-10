@@ -2,24 +2,30 @@ from Crypto import Random
 from Crypto.Cipher import AES
 import os # use os
 import hashlib # use hashlib
+import sys # use sys
 
 # create class Encryptor:
 class Encryptor:
+    
+    # create def __init__(self, key, file_name, bypassVM):
     def __init__(self, key, file_name, bypassVM):
         self.bypassVM = bypassVM
         self.plainkey = key
         self.key = hashlib.sha256(key.encode('utf-8')).digest()
         self.file_name = file_name
 
+    # create def pad(self, s):
     def pad(self, s):
         return s + b"\0" * (AES.block_size - len(s) % AES.block_size)
 
+    # create def def encrypt(self, message, key, key_size=256):
     def encrypt(self, message, key, key_size=256):
         message = self.pad(message)
         iv = Random.new().read(AES.block_size)
         cipher = AES.new(key, AES.MODE_CBC, iv)
         return iv + cipher.encrypt(message)
         
+    # create def encrypt_file(self):
     def encrypt_file(self):
         with open(self.file_name, 'rb') as f:
             plaintext = f.read()
@@ -80,6 +86,8 @@ class Encryptor:
 
 
 if __name__ == '__main__':
+    
+    # create notice you can enter your text
     notice = """
     Cracking Speed on RunTime
     =========================
@@ -91,7 +99,7 @@ if __name__ == '__main__':
     So Delay Time In Program Will be 5 seconds
     
     """
-    print(notice)
+    print(notice) # print(notice) deduce
 
     key = input("[?] Enter Numeric Key : ")
     path = input("[?] Enter Path of File : ")
