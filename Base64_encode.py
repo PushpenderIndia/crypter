@@ -1,6 +1,7 @@
-import base64 # use base64
 import os # use os
 import sys # use sys
+import base64 # use base64
+
 
 # create class Encode:
 class Encode:
