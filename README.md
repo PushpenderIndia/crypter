@@ -63,6 +63,9 @@ $ python -m pip install pycryptodome
 
 * Note : If you are in Kali or Any Other Linux, then type `python3` instead of `python`
 
+$ pip install pyinstaller
+this is to compile our project in the future into one .exe
+
 # Running Cryptor
 $ python Cryptor 
 ```

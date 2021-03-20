@@ -1,4 +1,9 @@
-import Base64_encode, AES_encrypt, shutil
+import encode # use encode
+import Base64_ # use Base64
+import AES_encrypt # use AES_encrypt
+import shutil # use shutil
+import os # use os
+import sys # use sys
 
 if __name__ == '__main__':
     notice = """
@@ -12,8 +17,11 @@ if __name__ == '__main__':
     So Delay Time In Program Will be 5 seconds
     
     """
-    print(notice)
-
+    print(notice) # use function print()
+    
+    print('Crypter.py')
+    print('https://github.com/Lencof/crypter/edit/master/Crypter.py')
+    
     key = input("[?] Enter Numeric Weak Key : ")
     path = input("[?] Enter Path of File : ")
     bypassVM = input("[?] Want to BypassVM (y/n): ")
