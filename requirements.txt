@@ -1,0 +1,8 @@
+pip install hashlib
+pip install pycryptodome
+pip install cryptography
+pip install subprocess
+pip install re 
+pip install uuid 
+pip install ctypes
+pip install pyinstaller

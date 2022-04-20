@@ -1,3 +1,4 @@
+# enter your text
 """
 1. Registry Check
 2. Processes and Files Check
@@ -11,8 +12,15 @@
     
 """
 
-import os, sys, subprocess, re, uuid, ctypes
+import re # use re
+import os # use os
+import sys # use sys
+import uuid # use uuid
+import ctypes # use ctypes
+import subprocess # use subproces
 
+
+# create class BypassVM:
 class BypassVM:
 
     def registry_check(self):  
@@ -21,7 +29,7 @@ class BypassVM:
         
         if reg1 != 1 and reg2 != 1:    
             print("VMware Registry Detected")
-            sys.exit()
+            sys.exit() # exit()
 
     def processes_and_files_check(self):
         vmware_dll = os.path.join(os.environ["SystemRoot"], "System32\\vmGuestLib.dll")
@@ -50,8 +58,9 @@ class BypassVM:
             print("Sandboxie DLL Detected")
             sys.exit()
         except:
-            pass              
+            pass # an empty block               
 
+    # create def mac_check(self):   
     def mac_check(self):
         mac_address = ':'.join(re.findall('..', '%012x' % uuid.getnode()))
         vmware_mac_list = ["00:05:69", "00:0c:29", "00:1c:14", "00:50:56"]
