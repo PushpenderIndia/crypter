@@ -1,6 +1,4 @@
 """
-Author : Pushpender (github.com/Technowlogy-Pushpender)
-
 1. Registry Check
 2. Processes and Files Check
 3. MAC check
